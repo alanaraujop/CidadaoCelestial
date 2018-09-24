@@ -1,0 +1,285 @@
+/* cores */
+
+
+/* quemsomos = #635a55
+navbar = #514843
+deixe-se levar = #c1db84
+footer = #2e5c5c */
+
+
+/* Configuração de fontes */
+
+@font-face {
+    font-family: HumanBold;
+    src: url(../fonts/Human/HUM777K.ttf);
+}
+
+@font-face {
+    font-family: Human;
+    src: url(../fonts/Human/Humanst521\ Lt\ BT\ Light.ttf);
+}
+
+@font-face {
+    font-family: Caviar;
+    src: url(../fonts/Caviar/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: Twcen;
+    src: url(../fonts/Twcen/tw-cen-mt-condensed-extra-bold.ttf);
+}
+
+
+/* resetar margin e padding dos elementos e configurar todos eles como flex-box */
+
+body,
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+header,
+footer,
+article,
+section,
+aside,
+main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+body,
+header,
+footer,
+#dev,
+aside {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    justify-content: center;
+}
+
+header img {
+    margin: 20px;
+}
+
+header nav {
+    justify-content: center;
+}
+
+header nav a {
+    color: #fff;
+    font-family: Caviar;
+}
+
+header nav li {
+    background-color: #524741;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    padding: 0 10px;
+    margin: 0 1px;
+    transition: 0.4s;
+}
+
+header nav li:hover {
+    background-color: #2e2825;
+}
+
+header nav li .active {
+    background-color: #3f3733;
+}
+
+footer {
+    background-color: #2e5c5c;
+}
+
+footer nav a {
+    font-family: Human;
+    color: #fff;
+}
+
+footer nav li {
+    margin: 10px;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+footer nav li h5 {
+    margin: 10px 0px;
+}
+
+footer nav ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#dev {
+    background: #214242;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#dev img {
+    height: 50px;
+    margin: 10px;
+}
+
+#dev h4 {
+    font-family: Human;
+    color: #fff;
+}
+
+main {
+    min-height: 400px;
+    flex-direction: row;
+}
+
+section {
+    width: 75%;
+    min-height: 400px;
+    flex-wrap: wrap;
+    /* flex: 4; */
+}
+
+aside {
+    background-color: #635a55;
+    width: 25%;
+    min-height: 400px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 15px; */
+}
+
+.card-news {
+    margin: 15px;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-news .card-img {
+    /* background-image: url("../img/thumbnails/news01.jpg"); */
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 100%;
+}
+
+.card-news h2 {
+    color: rgb(90, 90, 90);
+    font-family: Twcen;
+    padding: 15px 0 0 10px;
+}
+
+.card-news p {
+    color: rgb(90, 90, 90);
+    font-family: Human;
+    padding: 15px;
+}
+
+.lg {
+    flex: 3;
+}
+
+.md {
+    flex: 2;
+}
+
+.sm {
+    flex: 1;
+}
+
+#quem-somos {
+    display: flex;
+    flex-direction: column;
+}
+
+#quem-somos h2 {
+    background-color: #c1db84;
+    font-family: Twcen;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 20px 0 0;
+    padding: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.colaborador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.colaborador img {
+    height: 70px;
+    width: 70px;
+    margin: 25px;
+    border-radius: 35px;
+}
+
+.colaborador-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.colaborador-info h3 {
+    font-family: HumanBold;
+    color: #fff;
+    font-size: 16px;
+}
+
+.colaborador-info p {
+    font-family: Human;
+    color: #fff;
+    font-size: 14px;
+}
+
+#empresas {
+    display: flex;
+    flex-direction: column;
+}
+
+.empresas-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.empresas-img img {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+#empresas h2 {
+    background-color: #c1db84;
+    font-family: Twcen;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 20px 0 0;
+    padding: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}

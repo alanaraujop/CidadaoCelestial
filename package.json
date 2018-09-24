@@ -1,0 +1,22 @@
+{
+  "name": "cidadao-celestial",
+  "version": "1.0.0",
+  "description": "CIDADÃO CELESTIAL “É o cidadão do século XXI”, da comunicação, da geração multimídia, globalizado, que vive as rápidas transformações do século, mas que executa a paz, a justiça e a bondade na terra e se compraz nessa execução.\r Criamos o conceito “SHINE, HAPPY, PEOPLE”, pessoas, alegres e felizes, que desfrutam as maravilhas da terra, mas não se esquecem de promover o bem de todos e a defesa dos direitos humanos.\r É o cidadão colaborativo, cultural e espiritual preocupado com a falta de clareza sobre a direção em que o mundo está indo e que diariamente clama a cidadãos e governantes a busca por integração e cooperação, visando à educação, à saúde e o combate à corrupção, às mudanças climáticas, ao narcotráfico e ao terrorismo.\r Tem um discurso próprio permeado de atitudes de apoio às ações sociais e ambientais e tem a consciência de que é preciso resistir às injustiças de hoje. Caminha na terra, ligado no céu, fazendo o bem, percebendo que é possível o sonho de uma mudança do comportamento do homem perante o seu semelhante, e de uma sociedade onde as pessoas se preocupam com os outros e que deixando “as diferenças” de lado pratiquem a tolerância e convivam em harmonia. São “heróis da vida real”, não ganham homenagens, são caras comuns, heróis na vida de alguém, que jogam todas as suas fichas na Esperança, na Fé e no cuidar do outro: “PRATICA SEMPRE O BEM; NÃO PREJUDICA A NINGUÉM; CONTROLA A SUA MENTE”. \r  Não podemos esquecer que os cidadãos do século XXI não se conciliam com o perfil tradicional de religiosidade do século passado: participam de Igrejas, estão ligados à cultura (cinema, teatro, dança, etc..), e aos meios de comunicação, seja no radio e na TV, na internet, no blog, no ”twitter”etc..  , usam a rede e toda tecnologia possível, mas também se divertem sem a WEB: praticam esportes, estão ligados na moda, frequentam restaurantes, shows, eventos culturais, mas fazem tudo isso conectados. Gostam de cantar, tocar instrumentos, ouvir músicas e participar de cultos e palestras sobre amor ao próximo e paz.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alantechsafe/CidadaoCelestial.git"
+  },
+  "author": "Alan Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alantechsafe/CidadaoCelestial/issues"
+  },
+  "homepage": "https://github.com/alantechsafe/CidadaoCelestial#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
+  }
+}
