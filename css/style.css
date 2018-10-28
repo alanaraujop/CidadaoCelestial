@@ -67,6 +67,11 @@ a {
     text-decoration: none;
 }
 
+.menu-mobile {
+    display: none;
+}
+
+
 ul {
     list-style: none;
 }
@@ -282,4 +287,57 @@ aside {
     margin: 20px 20px 0 0;
     padding: 10px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 720px){
+    
+    header img {
+        width: 70%;
+    }
+    header {
+        flex-direction: initial;
+        box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    ul {
+        display: none;
+    }
+
+
+    .menu-mobile img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .menu-mobile {
+        width: 30%;
+        display: flex;
+        background-color: #524741;
+    }
+
+    main {
+        flex-direction: column;
+    }
+    section {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        margin: 0;
+    }
+    aside h2 {
+        width: 466px;
+    }
+    .colaborador {
+        flex-direction: row;
+    }
+    #card {
+        flex-direction: column;
+    }
+
+    footer nav {
+        height: 3px;
+        background-color: white;
+    }
+
 }
