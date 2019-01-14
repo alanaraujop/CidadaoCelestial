@@ -1,0 +1,175 @@
+main {
+    min-height: 400px;
+    flex-direction: row;
+}
+
+section {
+    width: 75%;
+    min-height: 400px;
+    flex-wrap: wrap;
+    /* flex: 4; */
+}
+
+aside {
+    background-color: #635a55;
+    width: 25%;
+    min-height: 400px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px 10px 10px 15px;
+}
+
+.title{
+    background-color: #c1db84;
+    font-family: Twcen;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text-card{
+    padding: 5px 0px 5px 0px;
+    font-family: human;
+}
+
+.card-news {
+    margin: 15px;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-news .card-img {
+    /* background-image: url("../img/thumbnails/news01.jpg"); */
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 100%;
+}
+
+.card-news h2 {
+    color: rgb(90, 90, 90);
+    font-family: Twcen;
+    padding: 15px 0 0 10px;
+}
+
+.card-news p {
+    color: rgb(90, 90, 90);
+    font-family: Human;
+    padding: 15px;
+}
+
+.lg {
+    flex: 3;
+}
+
+.md {
+    flex: 2;
+}
+
+.sm {
+    flex: 1;
+}
+
+#quem-somos {
+    display: flex;
+    flex-direction: column;
+}
+
+#quem-somos h2 {
+    background-color: #c1db84;
+    font-family: Twcen;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 20px 0 0;
+    padding: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.colaborador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.colaborador img {
+    height: 70px;
+    width: 70px;
+    margin: 25px;
+    border-radius: 35px;
+}
+
+.colaborador-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.colaborador-info h3 {
+    font-family: HumanBold;
+    color: #fff;
+    font-size: 16px;
+}
+
+.colaborador-info p {
+    font-family: Human;
+    color: #fff;
+    font-size: 14px;
+}
+
+#empresas {
+    display: flex;
+    flex-direction: column;
+}
+
+.empresas-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.empresas-img img {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+#empresas h2 {
+    background-color: #c1db84;
+    font-family: Twcen;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 20px 0 0;
+    padding: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 720px){
+    
+    main {
+        flex-direction: column;
+    }
+    section {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        margin: 0;
+    }
+    aside h2 {
+        width: 466px;
+    }
+    .colaborador {
+        flex-direction: row;
+    }
+    #card {
+        flex-direction: column;
+    }
+
+}
