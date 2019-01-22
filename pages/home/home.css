@@ -36,6 +36,8 @@ aside {
     padding: 5px 0px 5px 0px;
     font-family: human;
     cursor: pointer;
+    color: #4e4e4e;
+    font-weight: 600;
 }
 
 .card-news {
