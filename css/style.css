@@ -346,12 +346,13 @@ aside {
 .news-content p{
     font-size: 20px;
     font-family: Human;
-    color: #333333;
+    /* color: #333333; */
+    color: #423838;
     font-weight: 600;
 }
 
 .human-bold{
-    font-family: HumanBold
+    font-family: HumanBold;
 }
 
 .news-content hr{
