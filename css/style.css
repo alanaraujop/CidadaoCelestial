@@ -111,8 +111,10 @@ header nav li:hover {
     background-color: #2e2825;
 }
 
-header nav li .active {
-    background-color: #3f3733;
+header nav .active {
+    /* background-color: #3f3733; */
+    /* new color by breno */
+    background-color: #889e54;;
 }
 
 footer {
@@ -177,7 +179,17 @@ aside {
 .card {
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     /* padding: 15px; */
+}
+
+.card a{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .card-news {
@@ -370,6 +382,10 @@ aside {
     font-weight: 400;
     color: #575757;
     padding: 30px 0px 15px;
+}
+
+.link{
+    color: #1a2b64;
 }
 
 
