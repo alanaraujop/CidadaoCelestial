@@ -1,0 +1,83 @@
+/* Main-of-news style byBreno */
+.container-main {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.container-main .news-content {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.news-content .title-news{
+    font-family: Twcen;
+    font-size: 40px;
+    color: #333333;
+}
+
+.news-content .title-description{
+    font-family: Human;
+    font-size: 22px;
+    font-weight: 400;
+    color: #999999;
+    padding: 10px 0px;
+}
+
+.news-content .subtitle{
+    font-family: Twcen;
+    font-size: 28px;
+    color: #333333;
+}
+
+.news-content .subtitle-description{
+    padding: 5px 0px 15px;
+}
+
+.news-content p{
+    font-size: 20px;
+    font-family: Human;
+    /* color: #333333; */
+    color: #423838;
+    font-weight: 600;
+}
+
+.human-bold{
+    font-family: HumanBold;
+}
+
+.news-content hr{
+    height: 1px;
+    width: 100%;
+    background-color: #99989880;
+    border: none;
+    margin: 20px 0px;
+}
+
+.container-main .container-adverts {
+    flex: 2;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border-left: 1px solid#99989880;
+}
+
+.container-adverts .adverts-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.writte-by{
+    font-family: Human;
+    font-size: 22px;
+    font-weight: 400;
+    color: #575757;
+    padding: 30px 0px 15px;
+}
+
+.link{
+    color: #1a2b64;
+}
