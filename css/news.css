@@ -81,3 +81,32 @@
 .link{
     color: #1a2b64;
 }
+
+.hr-mobile{
+    display: none;
+}
+
+@media(max-width:1000px){
+    .container-main .news-content {
+        margin-left: 50px;
+    }
+
+    .container-main .container-adverts {
+        margin: 0px 50px 0px 20px;
+    }
+}
+
+@media(max-width:720px){
+    .container-main .news-content, .container-main .container-adverts {
+        width: 90%;
+        margin: 0px 15px;
+    }
+
+    .container-main .container-adverts {
+        border: none;
+    }
+
+    .hr-mobile{
+        display: block;
+    }
+}
