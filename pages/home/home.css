@@ -23,7 +23,7 @@ aside {
     padding: 15px 10px 10px 15px;
 }
 
-.title{
+.title {
     background-color: #c1db84;
     font-family: Twcen;
     color: #fff;
@@ -32,7 +32,7 @@ aside {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-.text-card{
+.text-card {
     padding: 5px 0px 5px 0px;
     font-family: human;
     cursor: pointer;
@@ -153,26 +153,76 @@ aside {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 720px){
-    
+.mobile,
+.nav,
+#checked
+{
+    display: none
+}
+
+@media (max-width: 720px) {
+
     main {
         flex-direction: column;
     }
+
     section {
         width: 100%;
     }
+
     aside {
         width: 100%;
         margin: 0;
     }
+
     aside h2 {
         width: 466px;
     }
+
     .colaborador {
         flex-direction: row;
     }
+
     #card {
         flex-direction: column;
     }
 
+    .card {
+        display: none;
+    }
+
+    #quem-somos h2,
+    #empresas h2 {
+        width: auto;
+    }
+
+    .nav {
+        font-size: 60px;
+        background-color: #524741;
+        color: white;
+        padding: 10px;
+
+    }
+
+    #checked{
+        display: none;
+    }
+
+    #icone{
+        cursor: pointer;
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+   
 }
