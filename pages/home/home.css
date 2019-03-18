@@ -38,6 +38,7 @@ aside {
     cursor: pointer;
     color: #4e4e4e;
     font-weight: 600;
+    max-width: 420px;
 }
 
 .card-news {
