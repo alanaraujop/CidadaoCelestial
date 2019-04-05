@@ -84,7 +84,7 @@ header {
 header .logo{
     margin: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 

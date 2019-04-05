@@ -161,6 +161,12 @@ aside {
     display: none
 }
 
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+
 @media (max-width: 720px) {
 
     main {
@@ -218,9 +224,9 @@ aside {
 
     .row {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
-
+    
     header img {
         width: 100%;
     }
