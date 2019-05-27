@@ -200,9 +200,9 @@ aside {
         flex-direction: column;
     }
 
-    .card {
+    /* .card {
         display: none;
-    }
+    } */
 
     #quem-somos h2,
     #empresas h2 {
@@ -230,7 +230,7 @@ aside {
 
     .row {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     
     header img {
